@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-lightitalic;
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+.heromain{
+    color: #f9faf8;
+    font-size: 48px;
+} 
+
+.herosecond{
+    font-size: 20px;
+    color: #e5e7eb;
+
+}
+
+
+body{
+    font-family: Roboto;
+}
+
+.firstPart{
+    background-color: #1f2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButtons{
+    margin: 24px;
+}
+#nav3{
+    margin-right: 128px;
+}
+.headLogo{
+    flex: 3;
+    margin-left: 128px;
+
+    font-size: 24px;
+    color: #f9faf8;
+} 
+
+.mainPart{
+    display: flex;
+    margin: 48px;
+    justify-content: space-between;
+}
+
+.yoshi{
+    width: 50;
+}
+
+.Image{
+    background-color: coral;
+    margin-right: 128px;
+    width: 400px;
+    height: 128px;
+}
+
+.imageText{
+    margin-top: 16%;
+    margin-left: 30%;
+}
+
+.mainPartText{
+    margin-left: 128px;
+    width: 480px;
+}
+
+#signButton{
+    width: 128px;
+    height: 32px;
+    background-color: #3882f6;
+    border-radius: 2px;
+    border: 0;
+    color: #f9faf8;
+}
+
+.infoHeader{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 39%;
+}
+
+.boxes{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.boxandtext{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.roundedBox{
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 200px;
+    height: 150px; 
+}
+
+.boxtext{
+    height: 50px;
+    width: 256px;
+}
+
+.thirdPart{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: Roboto-lightitalic;
+
+    margin-top: 48px;
+    margin-left: 256px;
+    width: 1048px ;
+}
+
+.author{
+    font-size: 24px;
+    margin-left: 1048px;
+}
+
+.callBox{
+    margin: 128px;
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signUpButton{
+    width: 128px;
+    height: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-color: #e5e7eb;
+    border-width: 4px;
+    font-family: roboto-bold;
+    font-size: 20px;
+    margin: 50px;
+    margin-right: 100px;
+}
+
+.credits{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+#credtext{
+    margin-left: 40%;
+}
